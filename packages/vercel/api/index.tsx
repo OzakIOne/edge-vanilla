@@ -7,7 +7,7 @@ export const config = {
   runtime: 'edge',
 }
 
-const app = new Hono().basePath('/api')
+const app = new Hono().basePath('/')
 
 app.get('/', (c) => {
   return new ImageResponse(

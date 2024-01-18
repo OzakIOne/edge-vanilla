@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel"
+  },
+  "dependencies": {
+    "@cloudflare/pages-plugin-vercel-og": "^0.1.0",
+    "@types/react": "^18.2.48",
+    "@vercel/og": "^0.6.2"
+  },
+  "devDependencies": {
+    "vercel": "^33.1.0"
+  }
+}
